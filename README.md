@@ -1,7 +1,7 @@
 # What_Game_Should_We_Make?  
 #### 1. 프로젝트 개요 : 더 많은 매출을 확보하기 위해 어떤 게임을 만들어야 하는지 데이터를 바탕으로 분석하기
 [주어진 데이터](https://ds-lecture-data.s3.ap-northeast-2.amazonaws.com/datasets/vgames2.csv)를 토대로 분석을 통해, 게임 회사에게 '더 나은 매출을 위해선 차기작으로 어떤 게임을 만들어야 하는지'에 대한 고민을 해결하고자 진행한 프로젝트
-- 데이터는 'Name', 'Platform',	'Year', '	Genre', 'Publisher', 'NA_Sales', 'EU_Sales', '	JP_Sales', 'Other_Sales'로 구성
+- 데이터는 'Name', 'Platform',	'Year', '	Genre', 'Publisher', 'NA_Sales', 'EU_Sales', '	JP_Sales', 'Other_Sales'로 구성, 게임에 대한 정보와 지역별 판매량이 기록되어 있음
 
 #### 2. 프로젝트 진행 과정
 데이터 확인 및 전처리- 데이터 분석 및 시각화 - 결론
