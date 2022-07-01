@@ -1,9 +1,15 @@
 # What_Game_Should_We_Make?  
+<img src="https://cdn-icons.flaticon.com/png/512/4315/premium/4315528.png?token=exp=1656691882~hmac=921a54854e86d6668f1b990b2110ff22" width="50" height="50">
+
 #### 1. 프로젝트 개요 : 더 많은 매출을 확보하기 위해 어떤 게임을 만들어야 하는지 데이터를 바탕으로 분석하기
-**[주어진 데이터](https://ds-lecture-data.s3.ap-northeast-2.amazonaws.com/datasets/vgames2.csv)를 토대로 분석**을 통해, 게임 회사에게 '**더 나은 매출**을 위해선 차기작으로 어떤 게임을 만들어야 하는지'에 대한 고민을 해결하고자 진행한 프로젝트
+**[주어진 데이터](https://ds-lecture-data.s3.ap-northeast-2.amazonaws.com/datasets/vgames2.csv)를 토대로 분석**을 통해,
+  1. 게임 회사에게 '**더 나은 매출**을 위해선 차기작으로 어떤 게임을 만들어야 하는지 알 수 있다.
+
+라는 가설을 세우고 프로젝트를 진행함
 - 데이터는 'Name', 'Platform',	'Year', '	Genre', 'Publisher', 'NA_Sales', 'EU_Sales', '	JP_Sales', 'Other_Sales'로 구성. 게임에 대한 정보와 지역별 판매량이 기록되어 있음
 
 #### 2. 프로젝트 진행 과정
+![image](https://user-images.githubusercontent.com/89769294/176929810-f02ad80e-8d2d-40d0-969b-f7a9760afa72.png)
 데이터 확인 및 전처리 - 데이터 분석 및 시각화 - 결론
 - **데이터 확인 및 전처리**
   - 파일 확인, 결측치, 단위, 기타 오류 제거, 열 추가 등
@@ -15,7 +21,8 @@
   - 분석한 결과를 통해 도출함
 
 #### 3. 결론
-EA에서 유통한 XBOX One용 액션 및 스포츠 장르 게임을 발매해 미국을 타게팅하는 마케팅 방법을 하는 것이 가장 큰 판매량을 확보할 가능성이 높음
+  1. 게임 회사에게 '**더 나은 매출**을 위해선 차기작으로 어떤 게임을 만들어야 하는지 알 수 있다.  
+  → **EA에서 유통한 XBOX One용 액션 및 스포츠 장르 게임을 발매, 미국 타게팅하는 마케팅이 가장 큰 매출을 확보할 것이라 예측함**
 
 #### 4. 파일 구성
 **AI_07_김백건_Section1.ipynb** : 프로젝트 진행 내용이 기록된 파일
